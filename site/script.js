@@ -51,6 +51,8 @@ for (let i = 0; i < options.length; i++) {
 const listItems = document.querySelector('#lista').children;
 const telaAtras = document.querySelector('.customer')
 const modal = document.querySelector('.customer-edit');
+const cancel = document.querySelector('#cancelar')
+
 
 
 for (let i = 0; i < listItems.length; i++) {
@@ -64,6 +66,13 @@ for (let i = 0; i < listItems.length; i++) {
 
         // modal.style.position = 'absolute';
     })
+
+    cancel.addEventListener('click', () => {
+        modal.style.display = 'none';
+    })
+
+
+
 
 }
 

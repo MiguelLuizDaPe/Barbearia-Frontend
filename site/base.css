@@ -200,14 +200,57 @@ body {
 }
 
 .escrever{
-    margin-top: 2vw;
+    margin-top: 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+
+.escrever input{
+    padding: 0.5vw;
+    margin: 1vw;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    background-color: var(--primario-fundo);
+    border-color: #C4C4C4BF;
 }
 
 .description{
-    margin-top: 1vw;
+    /* margin-top: 1vw; */
     display: flex;
-    gap: 0.3vw;
+    /* gap: 0.3vw; */
     /* flex-direction: column; */
+}
+
+.save{
+    background-color: #0275D8;
+    border: 0;
+    padding: 0.8vw;
+    font-size: large;
+    border-radius: 10px;
+    margin-right: 0.4vw;
+    color: #ffffff;
+    font-size: 1.3vw;
+
+
+}
+
+.cancel{
+    background-color: rgb(206, 204, 204);
+    border: 0;
+    padding: 0.8vw;
+    font-size: large;
+    cursor: pointer;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 1.3vw;
+}
+
+.botao{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 1vw;
 }
 
 /* .description :nth-child(odd){
