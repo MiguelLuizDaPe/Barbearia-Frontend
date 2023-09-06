@@ -340,7 +340,7 @@ table {
 
 td,
 th {
-    /* border: 1px solid #dddddd; */
+    /* border: 2px solid #dddddd; */
     text-align: left;
     padding: 1.5vw;
     padding-left: 2vw;
@@ -348,6 +348,8 @@ th {
 
 tbody tr {
     transition: 0.2s;
+    border: 2px solid #dddddd;
+
 }
 
 tbody tr:hover {
