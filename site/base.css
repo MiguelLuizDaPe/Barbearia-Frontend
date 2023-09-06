@@ -346,7 +346,7 @@ th {
     padding-left: 2vw;
 }
 
-tbody tr {
+tbody tr, thead {
     transition: 0.2s;
     border: 2px solid #dddddd;
 
